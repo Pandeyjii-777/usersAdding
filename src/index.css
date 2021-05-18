@@ -1,0 +1,91 @@
+
+
+.frontendOUT{
+    background: pink;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+
+.frontend{
+
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background: chartreuse;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.INPUT {
+    background: cornflowerblue;
+    border: none;
+    outline: none;
+    border-radius: 8em;
+     box-shadow: 3px 2px 2px cornflowerblue, -3px 2px 2px cornflowerblue, 3px -2px 2px cornflowerblue, -3px -2px 2px cornflowerblue;
+    text-align: center;
+    color: green;
+}
+
+.Addbutton{
+   margin-left: 5px;
+    background: crimson;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.OUTtimeline{
+    padding: 5px 5px;
+    color: indigo;
+    font-style: oblique;
+    border-bottom: 1px solid black;
+    word-break: break-all;
+}
+
+.USERNAME{
+    padding: 3px 5px;
+}
+
+.showUsers{
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.Addbutton, .saved, .Delete:hover{
+    cursor: pointer;
+}
+
+.Deleteicon{
+    color:black;
+    background: red;
+    padding: 2px 4px;
+    border-radius: 4px; 
+}
+
+.Deleteicon:hover{
+    color: red;
+    background: black;
+}
+
+.Saved{
+    color: green;
+    background: white;
+    padding: 1px 3px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.Saved:hover{
+    color: white;
+    background: green;
+}
+
