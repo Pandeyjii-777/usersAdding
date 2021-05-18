@@ -24,7 +24,7 @@ const App = () =>{
             } 
 
     
-      //Create Item Part of To-Do List;
+     
       let Name=null;
       const userName = (e)=>{
            if(e.target.value.length>=4){
@@ -35,7 +35,7 @@ const App = () =>{
             } 
         }
      
-        //Create Item Add to To-Do List;
+    
       const showall = ()=>{
         let CHOSEN;
 
@@ -76,7 +76,7 @@ const App = () =>{
     };
     
 
-    //Delete Part of To-Do List;
+   
       const DeleteIT = (e) =>{
           
             Users.splice(e.currentTarget.id , 1);
@@ -102,7 +102,7 @@ const App = () =>{
         }
 
 
-     //Edit Part of To-Do List;   
+    
         let final=null;
         const changinghere= (e)=>{
             
@@ -111,12 +111,12 @@ const App = () =>{
               }
               else{
                 final=null;
-               // alert("Please write atleast 4 character otherwise it will not change")
+               
               }
            
         }
 
-      //Edit Saved Part of To-Do List;  
+      
         const saveIT = (e) =>{
            if(final!=null){
             Users.splice(e.currentTarget.id , 1);
