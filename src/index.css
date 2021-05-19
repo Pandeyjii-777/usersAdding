@@ -15,6 +15,7 @@
 .frontend{
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 0.5rem;
     background: chartreuse;
@@ -44,6 +45,9 @@
 }
 
 .OUTtimeline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 5px 5px;
     color: indigo;
     font-style: oblique;
